@@ -1,0 +1,67 @@
+\documentclass{book}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[acronym]{glossaries}
+
+\makeglossaries
+
+\newglossaryentry{latex}
+{
+        name=latex,
+        description={Is a mark up language specially suited for 
+scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+        name=mathematics,
+        description={Mathematics is what}
+}
+
+\newglossaryentry{formula}
+{
+        name=formula,
+        description={A mathematical expression}
+}
+
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+
+\newacronym{lcm}{LCM}{Least Common Multiple}
+\begin{document}
+\tableofcontents
+\part{Partie 1}
+    \chapter{Chapitre 1}
+        \section*{Une section}
+        \section{Technical Information}
+        The first part of the document should provide information about the following items :
+        \begin{itemize}
+  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the business, this limit give information to the developer of the time allowed for the new feature.
+  			\item Individual entries are indicated with a black dot, a so-called bullet.
+  			\item The text in the entries may be of any length.
+		\end{itemize}
+        \section{Problem Statement}
+            qsdsqd
+        \subsection{Validation Process}
+        In this section, business/product owner/product manager/QA should provide 
+        \subsection{Une sous-section}
+    \chapter{Chapitre 2}
+        \section{Une section}
+            \subsection{Une sous-section}
+                \paragraph{Un paragraphe}
+            \subsection{Une sous-section}
+                \paragraph{Un paragraphe}
+        \section{Une section}
+    \chapter{Chapitre 3}
+        \section{Une section}
+        \section{Une section}
+      
+  qdqsdqsd  
+
+The \Gls{latex} typesetting markup language is specially suitable 
+for documents that include \gls{maths}. \Glspl{formula} are rendered 
+properly an easily once one gets used to the commands.
+
+\printglossary[type=\acronymtype]
+
+\printglossary[nonumberlist]
+\end{document}
