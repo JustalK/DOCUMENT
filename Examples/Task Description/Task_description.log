@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  29 APR 2022 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  30 APR 2022 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,20 +282,20 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Task_description.aux)
 \openout1 = `Task_description.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (./Task_description.glsdefs) (./Task_description.toc)
 \tf@toc=\write6
 \openout6 = `Task_description.toc'.
@@ -316,35 +316,48 @@ Chapter 1.
 
 ]
 Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
 [7] [8
 
 ]
 Chapter 3.
-(./Task_description.acr) (./Task_description.gls [9] [10
+[9] [10]
+Chapter 4.
+(./Task_description.gls [11
 
-]) [11]
-(./Task_description.aux) ) 
+] [12
+
+]) [13] (./Task_description.aux) ) 
 Here is how much of TeX's memory you used:
- 5455 strings out of 483140
- 80102 string characters out of 5965151
- 367137 words of memory out of 5000000
- 20396 multiletter control sequences out of 15000+600000
+ 5571 strings out of 483140
+ 81778 string characters out of 5965151
+ 370063 words of memory out of 5000000
+ 20515 multiletter control sequences out of 15000+600000
  541664 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,4n,37p,996b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx1440.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecsl1000.600pk> </home/justalk/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk>
-Output written on Task_description.pdf (11 pages, 57494 bytes).
+ 51i,4n,37p,996b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/justalk/.texlive2019/texmf-var/fonts/
+pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fon
+ts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/justalk/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecsl1000.600pk> </home/justalk/.texlive2019/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive201
+9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive
+2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk>
+Output written on Task_description.pdf (13 pages, 72245 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 284 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

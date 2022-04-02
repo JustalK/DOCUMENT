@@ -5,46 +5,80 @@
 
 \makeglossaries
 
-\newglossaryentry{latex}
+\newglossaryentry{PO}
 {
-        name=latex,
-        description={Is a mark up language specially suited for 
-scientific documents}
+        name=PO,
+        description={Is a Product Owner}
 }
 
-\newglossaryentry{maths}
+\newglossaryentry{PM}
 {
-        name=mathematics,
-        description={Mathematics is what}
+        name=PM,
+        description={is a Product Manager}
 }
 
-\newglossaryentry{formula}
+\newglossaryentry{Business}
 {
-        name=formula,
-        description={A mathematical expression}
+        name=Business,
+        description={is any person from the sales teams}
 }
 
-\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newglossaryentry{QA}
+{
+        name=QA,
+        description={is any person from the quality assurance teams}
+}
 
-\newacronym{lcm}{LCM}{Least Common Multiple}
+\newglossaryentry{DEV}
+{
+        name=DEV,
+        description={is any person responsible for the development of the features}
+}
+
+\newglossaryentry{TL}
+{
+        name=TL,
+        description={is the team leader of the backend or frontend team}
+}
+
 \begin{document}
 \tableofcontents
 \part{Partie 1}
-    \chapter{Chapitre 1}
-        \section*{Une section}
-        \section{Technical Information}
-        The first part of the document should provide information about the following items :
+    \chapter{Business needs}
+        \section{Feature Information}
+        The first part of the document should provide information about the following items in a form of a table :
         \begin{itemize}
-  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the business, this limit give information to the developer of the time allowed for the new feature.
-  			\item Individual entries are indicated with a black dot, a so-called bullet.
-  			\item The text in the entries may be of any length.
+  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature.
+  			 \item \textbf{\underline{Business need summary :}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \underline{For example :} I want users to be able to pay.
 		\end{itemize}
         \section{Problem Statement}
             qsdsqd
-        \subsection{Validation Process}
-        In this section, business/product owner/product manager/QA should provide 
-        \subsection{Une sous-section}
-    \chapter{Chapitre 2}
+     \chapter{Limitation and impacts}
+        \section{Product consideration}
+        In this section, \gls{PM}/\gls{PO} will described the resulting effect of this new features with the actual system. The part of the system that will be impacted by such new feature.
+        \\\\
+        \underline{For example :}
+        If the goal of this feature was to remove a plan. The \gls{PM}/\gls{PO} should let everybody know that the current users using this deleted plan will be impacted and tell the \gls{TL} and \gls{DEV} what to do about those users. 
+        \section{Technical consideration}
+        In this section, \gls{TL} will described the limitation and the effect on other parts of the system of the new features.
+		\\\\       
+        \underline{For example :}
+        If the goal of this feature was to remove a plan. The \gls{TL} will let the \gls{PO}/\gls{Business} know that such feature is impossible without managing the user under this plan. Stripe does not allow that. 
+      \chapter{Validation}
+        \section{Validation Process}
+        In this section, \gls{Business}/\gls{PO}/\gls{PM}/\gls{QA} should provide the explicit steps that will be executed for testing the features. Items does not need to be enumerated and can also does not have any relation between each others.
+        
+        \underline{For example :}
+                \begin{enumerate}
+  			\item Make sure on first login the prompt is shown.
+  			\item Do not accept, logout and login and make sure it is still shown.
+  			\item Try to click the accept button without checking the box.
+  			 \item Check the box and click the accept button now.
+  			 \item Logout and make sure the prompt is not shown, make sure in DB the version of the last accepted version was saved.
+  			 \item Upgrade the version of the text, make sure the prompt is now shown again.
+		\end{enumerate}
+        \section{Deployment}
+        In this section reserved for the \gls{DEV}, you will find any information relative to the deployment of the feature on production such as the environment variables to add in the .env file of the production server, any command to run on the production server when the feature has to be merged... 
         \section{Une section}
             \subsection{Une sous-section}
                 \paragraph{Un paragraphe}
@@ -56,12 +90,6 @@ scientific documents}
         \section{Une section}
       
   qdqsdqsd  
-
-The \Gls{latex} typesetting markup language is specially suitable 
-for documents that include \gls{maths}. \Glspl{formula} are rendered 
-properly an easily once one gets used to the commands.
-
-\printglossary[type=\acronymtype]
 
 \printglossary[nonumberlist]
 \end{document}
