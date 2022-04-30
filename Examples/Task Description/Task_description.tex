@@ -3,6 +3,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[acronym]{glossaries}
 \usepackage{tabularx}
+\usepackage{verbatimbox}
+\usepackage[dvipsnames]{xcolor}
 \makeglossaries
 
 \newglossaryentry{PO}
@@ -48,13 +50,15 @@
         \section{Feature Information}
         The first part of the document should provide information about the following items in a form of a table :
         \begin{itemize}
-  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature. It should be written in full letter for avoiding confusion between different way of writting the date. \\\underline{For example :} 12 September 2023.
-  			 \item \textbf{\underline{Business need summary :}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \\\underline{For example :} I want the users to be able to pay.
-  			 \item \textbf{\underline{Priority :}} Provided by the \gls{PO}/\gls{PM}, this row should indicate how important is the feature on a range from 0 to 10. \\\underline{For example :} 10 (very important) - 0 (optionnal).
+  			\item {\color{BrickRed}\textbf{\underline{Deadline/Due Date :}}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature. It should be written in full letter for avoiding confusion between different way of writting the date. \\{\color{ForestGreen}\underline{For example :} 12 September 2023.}
+  			 \item {\color{BrickRed}\textbf{\underline{Business need summary :}}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \\{\color{ForestGreen}\underline{For example :} I want the users to be able to pay.}
+  			 \item {\color{BrickRed}\textbf{\underline{Priority :}}} Provided by the \gls{PO}/\gls{PM}, this row should indicate how important is the feature on a range from 0 to 10. \\{\color{ForestGreen}\underline{For example :} 10 (very important) - 0 (optionnal).}
+  			 \item {\color{BrickRed}\textbf{\underline{Jira :}}} Provided by the \gls{TL}, this row should contains the link poiting to the Jira story related to this feature.
+  			   			 \item {\color{BrickRed}\textbf{\underline{Reporter :}}} The person who is requesting the feature. This information make it easy to know who to ask information to.
 		\end{itemize}
-		\underline{For example :}
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
-\begin{tabularx}{0.8\textwidth} { 
+\addvbuffer[12pt 8pt]{\begin{tabularx}{0.8\textwidth} { 
   | >{\raggedright\arraybackslash}X 
   | >{\raggedright\arraybackslash}X | }
  \hline
@@ -64,14 +68,16 @@
 \hline
  Priority  & 7  \\
 \hline
-\end{tabularx}
+ Jira  & http://www.example.com  \\
+\hline
+\end{tabularx}}
 		
         \section{Scope}
         This part fill up by the \gls{PO}/\gls{PM} should indicate what inside this feature is the minimum required (MVP), the nice to have and the part outside of the scope.
-        
-        		\underline{For example :}
 
-\begin{tabularx}{0.8\textwidth} { 
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
+\addvbuffer[12pt 8pt]{\begin{tabularx}{0.8\textwidth} { 
   | >{\raggedright\arraybackslash}X 
   | >{\raggedright\arraybackslash}X | }
  \hline
@@ -81,24 +87,40 @@
 \hline
  Outside of scope  & The users can pay with bitcoin  \\
 \hline
-\end{tabularx}
+\end{tabularx}}
 
         \section{Problem Statement}
-                    This part fill up by the \gls{PO}/\gls{PM} should indicate what inside this feature is the minimum required (MVP), the nice to have and the part outside of the scope.
+        This section will give the necessaries information for understanding the functionnal requirements or modification of the UI. Any person should be able to graps the idea of the feature and the improvement just by reading this section.
+        \subsection{Actual state of the system}
+        	In the case of a refactoring or improvement of a feature already present in our system, \gls{PO}/\gls{PM}/\gls{PM} should describe the part that gonna be improve. This section highlight the actual way the system is working or should be working and put everybody on the same page. Dont hesitate to put image, graph or any document that could be interesting.
+        \subsection{Problem/Improvement to do}
+        In this section, \gls{PO}/\gls{PM}/\gls{PM}/\gls{Business} should described what is the problem or the improvement to make on the actual system described in the previous section.
+        \subsection{Final state of the system}
+        In this section, \gls{PO}/\gls{PM}/\gls{PM}/\gls{Business} would described the result needed. With the previous sections, it will become easy to compare the actual and final state of the system by highlighting the differences.
      \chapter{Limitation and impacts}
         \section{Product consideration}
         In this section, \gls{PM}/\gls{PO} will described the resulting effect of this new features with the actual system. The part of the system that will be impacted by such new feature.
-        \underline{For example :}
+
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
         If the goal of this feature was to remove a plan. The \gls{PM}/\gls{PO} should let everybody know that the current users using this deleted plan will be impacted and tell the \gls{TL} and \gls{DEV} what to do about those users. 
         \section{Technical consideration}
         In this section, \gls{TL} will described the limitation and the effect on other parts of the system of the new features.    
-        \underline{For example :}
-        If the goal of this feature was to remove a plan. The \gls{TL} will let the \gls{PO}/\gls{Business} know that such feature is impossible without managing the user under this plan. Stripe does not allow that. 
-      \chapter{Validation}
+
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
+        If the goal of this feature was to remove a plan. The \gls{TL} will let the \gls{PO}/\gls{Business} know that such feature is impossible without managing the user under this plan. Stripe does not allow that.
+      \chapter{Before development}
+      	\section{Wireframe}
+      		Depending of the feature, a front UI might be needed. In this case, wireframes should be provided before the implementation for creating endpoint close of UI. This requirement helps the frontend and backend connect easily their implementation.
+      	\section{Milestones/KPI}
+      	In this section, the \gls{PO}/\gls{PM}/\gls{DEV}/\gls{TL} will describe the milestones that the developer of the feature has to achieve to validate the KPI of the entire feature. By exploding the feature into milestones, it becomes easy to see the agile step of the development and what part could be split into multiple developers.
+      \chapter{After development}
         \section{Validation Process}
         In this section, \gls{Business}/\gls{PO}/\gls{PM}/\gls{QA} should provide the explicit steps that will be executed for testing the features. Items does not need to be enumerated and can also does not have any relation between each others.
         
-        \underline{For example :}
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
                 \begin{enumerate}
   			\item Make sure on first login the prompt is shown.
   			\item Do not accept, logout and login and make sure it is still shown.

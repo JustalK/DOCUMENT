@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  30 APR 2022 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  30 APR 2022 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,49 +580,126 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 Package: glossary-tree 2020/02/13 v4.45 (NLCT)
 \glstreeindent=\skip263
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/verbatimbox/verbatimbox.sty
+Package: verbatimbox 2014/03/12 v3.13 Routines for placing verbatim text into b
+oxes, useful in places where the verbatim environment is inaccessible. Secondar
+ily, for adding vertical buffer around an object.
+
+(/usr/share/texlive/texmf-dist/tex/latex/readarray/readarray.sty
+Package: readarray 2016/11/07\ 2.0\ Routines for inputting 2D and 3D array data
+ and recalling it on an element-by-element basis.
+
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count332
+\loi_nestcnt=\count333
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@index=\count334
+\c@@plane=\count335
+\c@@row=\count336
+\c@@col=\count337
+\c@use@args=\count338
+\c@@record=\count339
+\c@arg@index=\count340
+\c@break@count=\count341
+\c@index@count=\count342
+\c@loop@count=\count343
+\Arg@toks=\toks40
+\@arrayident@toks=\toks41
+\rdar@file=\read3
+
+readarray: bounds checking OFF
+)
+\savedverbbox=\box57
+\c@VerbboxLineNo=\count344
+\boxtopsep=\dimen256
+\boxbottomsep=\dimen257
+\ps@tempdima=\dimen258
+\ps@tempboxa=\box58
+\boxtop@sep=\skip264
+\boxbottom@sep=\skip265
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `Task_description.glo'.
 
 Package glossaries Info: Writing glossary file Task_description.glo on input li
-ne 6.
+ne 8.
 \glo@acronym@file=\write6
 \openout6 = `Task_description.acn'.
 
 Package glossaries Info: Writing glossary file Task_description.acn on input li
-ne 6.
+ne 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count332
-\l__pdf_internal_box=\box57
+\l__kernel_color_stack_int=\count345
+\l__pdf_internal_box=\box59
 )
 (./Task_description.aux)
 \openout1 = `Task_description.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
- (./Task_description.glsdefs) (./Task_description.toc)
-[1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+ (./Task_description.glsdefs)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count346
+\scratchdimen=\dimen259
+\scratchbox=\box60
+\nofMPsegments=\count347
+\nofMParguments=\count348
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count349
+\MPscratchDim=\dimen260
+\MPnumerator=\count350
+\makeMPintoPDFobject=\count351
+\everyMPtoPDFconversion=\toks43
+) (./Task_description.toc) [1
 
 \openout4 = `Task_description.ist'.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] [3]
-(./Task_description.gls [4]) [5
+] [3] [4] (./Task_description.gls [5]) [6
 
 ]
 \tf@toc=\write7
@@ -630,13 +707,13 @@ LaTeX Font Info:    ... okay on input line 44.
 
  (./Task_description.aux) ) 
 Here is how much of TeX's memory you used:
- 8946 strings out of 483140
- 127774 string characters out of 5965151
- 448407 words of memory out of 5000000
- 23868 multiletter control sequences out of 15000+600000
+ 10296 strings out of 483140
+ 145286 string characters out of 5965151
+ 476943 words of memory out of 5000000
+ 25184 multiletter control sequences out of 15000+600000
  544565 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,10n,37p,1017b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,11n,37p,1017b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfo
 ur/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/l
 jfour/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts/p
@@ -645,10 +722,10 @@ s/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/texmf-var/f
 onts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-va
 r/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on Task_description.pdf (5 pages, 48281 bytes).
+Output written on Task_description.pdf (6 pages, 60393 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 230 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
