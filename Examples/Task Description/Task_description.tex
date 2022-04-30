@@ -1,8 +1,8 @@
-\documentclass{book}
+\documentclass[a4paper,article,oneside]{memoir}
 \usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[acronym]{glossaries}
-
+\usepackage{tabularx}
 \makeglossaries
 
 \newglossaryentry{PO}
@@ -48,20 +48,50 @@
         \section{Feature Information}
         The first part of the document should provide information about the following items in a form of a table :
         \begin{itemize}
-  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature.
-  			 \item \textbf{\underline{Business need summary :}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \underline{For example :} I want users to be able to pay.
+  			\item \textbf{\underline{Deadline/Due Date :}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature. It should be written in full letter for avoiding confusion between different way of writting the date. \\\underline{For example :} 12 September 2023.
+  			 \item \textbf{\underline{Business need summary :}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \\\underline{For example :} I want the users to be able to pay.
+  			 \item \textbf{\underline{Priority :}} Provided by the \gls{PO}/\gls{PM}, this row should indicate how important is the feature on a range from 0 to 10. \\\underline{For example :} 10 (very important) - 0 (optionnal).
 		\end{itemize}
+		\underline{For example :}
+
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\raggedright\arraybackslash}X | }
+ \hline
+ Deadline & 12 September 2023 \\
+ \hline
+ Business need summary  & I want the users to be able to pay  \\
+\hline
+ Priority  & 7  \\
+\hline
+\end{tabularx}
+		
+        \section{Scope}
+        This part fill up by the \gls{PO}/\gls{PM} should indicate what inside this feature is the minimum required (MVP), the nice to have and the part outside of the scope.
+        
+        		\underline{For example :}
+
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\raggedright\arraybackslash}X | }
+ \hline
+ MVP & The users need to be able to pay with a credit card 3D Secure \\
+ \hline
+ Nice to have (optionnal)  & The users can pay with paypal  \\
+\hline
+ Outside of scope  & The users can pay with bitcoin  \\
+\hline
+\end{tabularx}
+
         \section{Problem Statement}
-            qsdsqd
+                    This part fill up by the \gls{PO}/\gls{PM} should indicate what inside this feature is the minimum required (MVP), the nice to have and the part outside of the scope.
      \chapter{Limitation and impacts}
         \section{Product consideration}
         In this section, \gls{PM}/\gls{PO} will described the resulting effect of this new features with the actual system. The part of the system that will be impacted by such new feature.
-        \\\\
         \underline{For example :}
         If the goal of this feature was to remove a plan. The \gls{PM}/\gls{PO} should let everybody know that the current users using this deleted plan will be impacted and tell the \gls{TL} and \gls{DEV} what to do about those users. 
         \section{Technical consideration}
-        In this section, \gls{TL} will described the limitation and the effect on other parts of the system of the new features.
-		\\\\       
+        In this section, \gls{TL} will described the limitation and the effect on other parts of the system of the new features.    
         \underline{For example :}
         If the goal of this feature was to remove a plan. The \gls{TL} will let the \gls{PO}/\gls{Business} know that such feature is impossible without managing the user under this plan. Stripe does not allow that. 
       \chapter{Validation}
@@ -79,17 +109,6 @@
 		\end{enumerate}
         \section{Deployment}
         In this section reserved for the \gls{DEV}, you will find any information relative to the deployment of the feature on production such as the environment variables to add in the .env file of the production server, any command to run on the production server when the feature has to be merged... 
-        \section{Une section}
-            \subsection{Une sous-section}
-                \paragraph{Un paragraphe}
-            \subsection{Une sous-section}
-                \paragraph{Un paragraphe}
-        \section{Une section}
-    \chapter{Chapitre 3}
-        \section{Une section}
-        \section{Une section}
-      
-  qdqsdqsd  
 
 \printglossary[nonumberlist]
 \end{document}
