@@ -43,18 +43,47 @@
         description={is the team leader of the backend or frontend team}
 }
 
+\newglossaryentry{FT}
+{
+        name=FT,
+        description={is the frontend team}
+}
+
+\newglossaryentry{DT}
+{
+        name=DT,
+        description={is the data team}
+}
+
 \begin{document}
 \tableofcontents
-\part{Partie 1}
+\part{How to write a task on Confluence}
+	\chapter*{Preface}
+	\addcontentsline{toc}{chapter}{Preface}
+		When writing a task on Confluence, the following parts should appeared in the following order :
+	
+        \begin{enumerate}
+  			\item {\color{BrickRed}\textbf{Feature information}}
+  			\item {\color{BrickRed}\textbf{Scope}}
+  			\item {\color{BrickRed}\textbf{Problem Statement - Actual}}	\item {\color{BrickRed}\textbf{Problem Statement - Problem}}	\item {\color{BrickRed}\textbf{Problem Statement - Future}}
+  			\item {\color{BrickRed}\textbf{Limitation}}
+  			\item {\color{BrickRed}\textbf{Wireframe}}
+  			\item {\color{BrickRed}\textbf{Milestone/KPI}}
+  			\item {\color{BrickRed}\textbf{Validation Process}}
+  			\item {\color{BrickRed}\textbf{Additionnal Document}}
+		\end{enumerate}
+		
+	You will find under more explanation about every section with some example of what should be put in every part.
     \chapter{Business needs}
         \section{Feature Information}
         The first part of the document should provide information about the following items in a form of a table :
         \begin{itemize}
   			\item {\color{BrickRed}\textbf{\underline{Deadline/Due Date :}}} Provided by the \gls{Business}, this limit give information to the \gls{TL}/\gls{DEV} of the time allowed for the new feature. It should be written in full letter for avoiding confusion between different way of writting the date. \\{\color{ForestGreen}\underline{For example :} 12 September 2023.}
-  			 \item {\color{BrickRed}\textbf{\underline{Business need summary :}}} Provided by the \gls{Business}, this row should indicate in one or two sentance the general goal. \\{\color{ForestGreen}\underline{For example :} I want the users to be able to pay.}
+  			 \item {\color{BrickRed}\textbf{\underline{Business need summary :}}} Provided by the \gls{Business}, this row should indicate in one or two sentances the general goal. \\{\color{ForestGreen}\underline{For example :} I want the users to be able to pay.}
   			 \item {\color{BrickRed}\textbf{\underline{Priority :}}} Provided by the \gls{PO}/\gls{PM}, this row should indicate how important is the feature on a range from 0 to 10. \\{\color{ForestGreen}\underline{For example :} 10 (very important) - 0 (optionnal).}
   			 \item {\color{BrickRed}\textbf{\underline{Jira :}}} Provided by the \gls{TL}, this row should contains the link poiting to the Jira story related to this feature.
   			   			 \item {\color{BrickRed}\textbf{\underline{Reporter :}}} The person who is requesting the feature. This information make it easy to know who to ask information to.
+  		\item {\color{BrickRed}\textbf{\underline{Wording :}}} Provided by the \gls{Business}/\gls{PO}/\gls{PM}, For every feature, a document should contains the sentances for the feature. If connection with Phrase, the link to the Phrase need to be provided.
 		\end{itemize}
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
@@ -69,6 +98,10 @@
  Priority  & 7  \\
 \hline
  Jira  & http://www.example.com  \\
+\hline
+ Reporter  & Kevin Justal  \\
+\hline
+ Wording  & http://www.drive.com  \\
 \hline
 \end{tabularx}}
 		
@@ -93,10 +126,84 @@
         This section will give the necessaries information for understanding the functionnal requirements or modification of the UI. Any person should be able to graps the idea of the feature and the improvement just by reading this section.
         \subsection{Actual state of the system}
         	In the case of a refactoring or improvement of a feature already present in our system, \gls{PO}/\gls{PM}/\gls{PM} should describe the part that gonna be improve. This section highlight the actual way the system is working or should be working and put everybody on the same page. Dont hesitate to put image, graph or any document that could be interesting.
+        
+        \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+        
+        The users can actually register to the app by entering an username, a password and a confirmation of password. After registration, they become automatically redirected to the platform where they can fully use the system.
         \subsection{Problem/Improvement to do}
         In this section, \gls{PO}/\gls{PM}/\gls{PM}/\gls{Business} should described what is the problem or the improvement to make on the actual system described in the previous section.
+        
+                \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+                
+        With this system, the new users are not customer. We would like to make the new users pay to be able to access the system.
         \subsection{Final state of the system}
         In this section, \gls{PO}/\gls{PM}/\gls{PM}/\gls{Business} would described the result needed. With the previous sections, it will become easy to compare the actual and final state of the system by highlighting the differences.
+        
+                        \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+                        
+        The new users registering to the app will now have a new screen after registration and before becoming allowed on the system and redirected. In this system, they would be requested to pay an amount of 29\$ by entering they credit card information. See the mockup in the other section. Once the paiement is accepted, they will be automatically redirected to the system. \\ In case, they registered and quit the page before paying, the next time they connect to the app, they will restart from the paiement page. They wont be accepted on the system till paiement has been made. \\ In case of trouble for paying, a button will be added for requesting assitance by chat to our customer service.
+        \subsection{Additionnal notes}
+                \begin{itemize}
+  			\item {\color{BrickRed}\textbf{\underline{Algorithms :}}} Provided by the \gls{Business}/\gls{PO}/\gls{PM}/\gls{DT}, if any algorithm is needed for the feature. It should include the explained algorithm with a minimum of one example for easy understanding.
+
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
+I want the system to count the number of occurence for each tags.
+
+Say you have a list of integers representing the tags from 0 to 5:
+ 
+input = [2, 5, 3, 1, 4, 2]
+
+First, you need to create a list of counts for each unique value in
+the `input` list. Since you know the range of the `input` is from 0 to
+5, you can create a list with five placeholders for the values 0 to 5,
+respectively:
+
+count = [0, 0, 0, 0, 0, 0]
+  \# val: 0  1  2  3  4  5
+
+Then, you go through the input list and iterate the index for each value by one.
+
+For example, the first value in the `input` list is 2, so you add one
+to the value at the second index of the `count` list, which represents
+the value 2:
+
+count = [0, 0, 1, 0, 0, 0]
+  \# val: 0  1  2  3  4  5
+       
+The next value in the `input` list is 5, so you add one to the value at
+the last index of the `count` list, which represents the value 5:
+
+count = [0, 0, 1, 0, 0, 1]
+  \# val: 0  1  2  3  4  5
+
+Continue until you have the total count for each value in the `input`
+list:
+
+count = [0, 1, 2, 1, 1, 1]
+  \# val: 0  1  2  3  4  5
+
+Finally, since you know how many times each value in the `input` list
+appears, you can easily create a sorted `output` list. Loop through
+the `count` list, and for each count, add the corresponding value
+(0 - 5) to the `output` array that many times.
+
+For example, there were no 0's in the `input` list, but there was one
+occurrence of the value 1, so you add that value to the `output` array
+one time:
+
+output = [1]
+
+Then there were two occurrences of the value 2, so you add those to the
+`output` list:
+
+output = [1, 2, 2]
+
+And so on until you have the final sorted `output` list:
+
+output = [1, 2, 2, 3, 4, 5]
+
+		\end{itemize}
      \chapter{Limitation and impacts}
         \section{Product consideration}
         In this section, \gls{PM}/\gls{PO} will described the resulting effect of this new features with the actual system. The part of the system that will be impacted by such new feature.
@@ -110,12 +217,26 @@
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
         If the goal of this feature was to remove a plan. The \gls{TL} will let the \gls{PO}/\gls{Business} know that such feature is impossible without managing the user under this plan. Stripe does not allow that.
-      \chapter{Before development}
+      \chapter{Additionnal information}
       	\section{Wireframe}
-      		Depending of the feature, a front UI might be needed. In this case, wireframes should be provided before the implementation for creating endpoint close of UI. This requirement helps the frontend and backend connect easily their implementation.
+      		Depending of the feature, a front UI might be needed. In this case, \gls{FT} should provided wireframes before the implementation for creating endpoint close of UI. This requirement helps the frontend and backend connect easily their implementation.
       	\section{Milestones/KPI}
       	In this section, the \gls{PO}/\gls{PM}/\gls{DEV}/\gls{TL} will describe the milestones that the developer of the feature has to achieve to validate the KPI of the entire feature. By exploding the feature into milestones, it becomes easy to see the agile step of the development and what part could be split into multiple developers.
-      \chapter{After development}
+      	
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
+\addvbuffer[12pt 8pt]{\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\raggedright\arraybackslash}X | }
+ \hline
+ 12 September 2023 & The users can register a card \\
+ \hline
+ 23 September 2023 & The information of the user got transmitted to stripe \\
+\hline
+ 30 September 2023 & The users can pay with the card \\
+\hline
+\end{tabularx}}   	
+      	
         \section{Validation Process}
         In this section, \gls{Business}/\gls{PO}/\gls{PM}/\gls{QA} should provide the explicit steps that will be executed for testing the features. Items does not need to be enumerated and can also does not have any relation between each others.
         
@@ -132,5 +253,14 @@
         \section{Deployment}
         In this section reserved for the \gls{DEV}, you will find any information relative to the deployment of the feature on production such as the environment variables to add in the .env file of the production server, any command to run on the production server when the feature has to be merged... 
 
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
+
+        \begin{itemize}
+  			\item Add in the .env file: KEY=z4e54az65e46az4e6
+  			 \item Run the command: pm2 reload all
+		\end{itemize}
+
+        \section{Additionnal document}
+        In this section, anyone can add document or write additionnal information that can be usefull for understanding the feature.
 \printglossary[nonumberlist]
 \end{document}
