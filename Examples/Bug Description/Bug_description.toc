@@ -1,0 +1,18 @@
+\contentsline {chapter}{Contents}{1}%
+\contentsline {part}{\partnumberline {I}How to report a bug}{2}%
+\contentsline {chapter}{Preface}{3}%
+\contentsline {section}{\numberline {0.1}Scope}{4}%
+\contentsline {section}{\numberline {0.2}Problem Statement}{4}%
+\contentsline {subsection}{Actual state of the system}{4}%
+\contentsline {subsection}{Problem/Improvement to do}{4}%
+\contentsline {subsection}{Final state of the system}{5}%
+\contentsline {subsection}{Additionnal notes}{5}%
+\contentsline {chapter}{\chapternumberline {1}Limitation and impacts}{6}%
+\contentsline {section}{\numberline {1.1}Product consideration}{6}%
+\contentsline {section}{\numberline {1.2}Technical consideration}{6}%
+\contentsline {chapter}{\chapternumberline {2}Additionnal information}{6}%
+\contentsline {section}{\numberline {2.1}Wireframe}{6}%
+\contentsline {section}{\numberline {2.2}Milestones/KPI}{6}%
+\contentsline {section}{\numberline {2.3}Validation Process}{7}%
+\contentsline {section}{\numberline {2.4}Deployment}{7}%
+\contentsline {section}{\numberline {2.5}Additionnal document}{7}%
