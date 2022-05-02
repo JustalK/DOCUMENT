@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  1 MAY 2022 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  2 MAY 2022 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,35 +699,33 @@ LaTeX Font Info:    ... okay on input line 64.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] [3] [4] [5] [6] (./Bug_description.gls [7]) [8
-
-]
+] [3] (./Bug_description.gls) [4]
 \tf@toc=\write7
 \openout7 = `Bug_description.toc'.
 
  (./Bug_description.aux) ) 
 Here is how much of TeX's memory you used:
- 10266 strings out of 483140
- 144476 string characters out of 5965151
- 477006 words of memory out of 5000000
- 25154 multiletter control sequences out of 15000+600000
+ 10264 strings out of 483140
+ 144449 string characters out of 5965151
+ 474006 words of memory out of 5000000
+ 25152 multiletter control sequences out of 15000+600000
  546108 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,12n,37p,1016b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,11n,37p,1016b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk
 /ljfour/jknappen/ec/ecbx1728.600pk> </home/justalk/.texlive2019/texmf-var/fonts
 /pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-
+nts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-
 var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/justalk/.texlive2019/
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
-Output written on Bug_description.pdf (8 pages, 81069 bytes).
+Output written on Bug_description.pdf (4 pages, 52088 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 213 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

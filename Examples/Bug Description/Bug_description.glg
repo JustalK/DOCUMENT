@@ -1,7 +1,4 @@
-This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
-Scanning style file ./Bug_description.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file Bug_description.glo....done (47 entries accepted, 0 rejected).
-Sorting entries....done (302 comparisons).
-Generating output file Bug_description.gls....done (27 lines written, 0 warnings).
-Output written in Bug_description.gls.
-Transcript written in Bug_description.glg.
+Warning: File 'Bug_description.glo' is empty.
+Have you used any entries defined in glossary 'main'?
+Remember to use package option 'nomain' if you
+don't want to use the main glossary.
