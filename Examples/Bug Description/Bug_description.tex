@@ -74,8 +74,8 @@
         \begin{enumerate}
   			\item {\color{BrickRed}\textbf{Title}}
   			\item {\color{BrickRed}\textbf{Description}}
-  			\item {\color{BrickRed}\textbf{Screenshots}}
   			\item {\color{BrickRed}\textbf{Replication}}
+  			\item {\color{BrickRed}\textbf{Screenshots}}
 		\end{enumerate}
 		
 	You will find under more explanation about each sections with some examples of what should find in each part.
@@ -105,33 +105,55 @@
         
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
+When passing edit user types payload for permissions it needs to pass as an array but
+when passing the create user types payload it needs to be passed as a string instead of an array
+
+conclusion the schema for both edit user types permission and create user types payload permissions should be the same
+
+\noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}  
+
+\begin{itemize}
+  \item Defect on Add Company
+  \item see screenshot for more info
+  \item Or even worse a ticket without description
+\end{itemize}
+     
+        \section{Replication}
+        This section is certainly the most important. Every step for replicating the bug should be describe. It's really hard and in some cases impossible for the developers to find why the system is returning an error. So helping the developers by providing a step by step will make the problem easy to find and of course, will decrease a lot the time needed for fixing bugs. It's a win-win for everyone.
+
+\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{Good example :}}}
+
+\begin{itemize}
+  \item Click FB icon on login page
+  \item Enter incorrect username
+  \item Click Add username
+  \item Enter enter company
+  \item Click Add Company
+  \item Enter "sd da"
+  \item Click Create Account
+  \item {Should display
+
+"A username cannot contain white space or be more than 32 characters"
+
+Actual:
+
+"An username cannot contain white space or be more than 32 characters"}
+\end{itemize}
+
 \noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}
 
-        \chapter{Screenshots}
+The current recommender system doesn't work. it recommends the same set of actions no matter what the keywords is.
+
+        \section{Screenshots}
         A description should always been accompagned with a screenshoot. Text alone is often not enought for pin-pointing where is the problem. Human are visual creature, so a text plus an image made any bug report clearer. It also limits the scope of the error to what the screenshot will show.
         
         This section is mandatory for any frontend bug report. The buggy part or the problem should be hightlighed on the screenshot by making a circle around the area where is the buggy.
         
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
-\noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}    
-        
-        \chapter{Replication}
-        This section is certainly the most important. Every step for replicating the bug should be describe. It's really hard and in some cases impossible for the developers to find why the system is returning an error. So helping the developers by providing a step by step will make the problem easy to find and of course, will decrease a lot the time needed for fixing bugs. It's a win-win for everyone.
 
-\noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{Good example :}}}
 
-\begin{itemize}
-  \item I went on the website www.example.com
-  \item I created a new account (username: Alex | password: azerty)
-  \item I logout and went back to the login page
-  \item I try to register with the account of alex (username: Alex | password: azerty)
-  \item I received an error telling me the account does not exist.
-\end{itemize}
-
-\noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}
-
-I cannot connect with the account of Alex.
+\noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}  
 
 \printglossary[nonumberlist]
 \end{document}
