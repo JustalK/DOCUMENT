@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 07:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 09:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,6 +348,30 @@ File: latin1.def 2018/08/11 v1.3c Input encoding file
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+)
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2020/02/13 v4.45 (NLCT)
 
@@ -359,10 +383,9 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
 \XKV@depth=\count292
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
@@ -373,8 +396,8 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count293
 )
-\@glsmfirst=\toks26
-\@glsmrest=\toks27
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -392,12 +415,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
-\ex@=\dimen179
+\@emptytoks=\toks29
+\ex@=\dimen181
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen180
+\pmbraise@=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -414,7 +437,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen181
+\big@size=\dimen183
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count299
@@ -422,21 +445,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count301
 \dspbrk@lvl=\count302
-\tag@help=\toks29
+\tag@help=\toks30
 \row@=\count303
 \column@=\count304
 \maxfields@=\count305
-\andhelp@=\toks30
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
-\@envbody=\toks31
+\andhelp@=\toks31
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
+\@envbody=\toks32
 \multlinegap=\skip192
 \multlinetaggap=\skip193
-\mathdisplay@stack=\toks32
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -495,7 +518,7 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks33
+\@dtl@toks=\toks34
 \@dtl@tmpcount=\count318
 \dtl@tmplength=\skip194
 \dtl@sortresult=\count319
@@ -510,7 +533,7 @@ Package: fp-eval 1995/04/03
 Package: glossaries-compatible-307 2020/02/13 v4.45 (NLCT)
 )
 \gls@level=\count325
-\@gls@tmpb=\toks34
+\@gls@tmpb=\toks35
 \gls@tmplen=\skip195
 
 
@@ -520,10 +543,10 @@ Package glossaries Warning: Overriding \printglossary on input line 5937.
 Package glossaries Warning: Overriding `theglossary' environment on input line 
 6527.
 
-\glskeylisttok=\toks35
-\glslabeltok=\toks36
-\glsshorttok=\toks37
-\glslongtok=\toks38
+\glskeylisttok=\toks36
+\glslabeltok=\toks37
+\glsshorttok=\toks38
+\glslongtok=\toks39
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
@@ -541,7 +564,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTpre=\skip256
 \LTpost=\skip257
 \LTchunksize=\count326
-\LTcapwidth=\dimen188
+\LTcapwidth=\dimen190
 \LT@head=\box52
 \LT@firsthead=\box53
 \LT@foot=\box54
@@ -550,7 +573,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count328
 \c@LT@tables=\count329
 \c@LT@chunks=\count330
-\LT@p@ftn=\toks39
+\LT@p@ftn=\toks40
 )
 \glsdescwidth=\skip258
 \glspagelistwidth=\skip259
@@ -561,19 +584,19 @@ Package: glossary-super 2020/02/13 v4.45 (NLCT)
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count331
-\ST@wd=\dimen189
+\ST@wd=\dimen191
 \ST@rightskip=\skip260
 \ST@leftskip=\skip261
 \ST@parfillskip=\skip262
-\ST@pageleft=\dimen190
-\ST@headht=\dimen191
-\ST@tailht=\dimen192
-\ST@pagesofar=\dimen193
-\ST@pboxht=\dimen194
-\ST@lineht=\dimen195
-\ST@prevht=\dimen196
-\ST@toadd=\dimen197
-\ST@dimen=\dimen198
+\ST@pageleft=\dimen192
+\ST@headht=\dimen193
+\ST@tailht=\dimen194
+\ST@pagesofar=\dimen195
+\ST@pboxht=\dimen196
+\ST@lineht=\dimen197
+\ST@prevht=\dimen198
+\ST@toadd=\dimen256
+\ST@dimen=\dimen257
 \ST@pbox=\box56
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
@@ -607,17 +630,17 @@ sep char (CT)
 \c@break@count=\count341
 \c@index@count=\count342
 \c@loop@count=\count343
-\Arg@toks=\toks40
-\@arrayident@toks=\toks41
+\Arg@toks=\toks41
+\@arrayident@toks=\toks42
 \rdar@file=\read3
 
 readarray: bounds checking OFF
 )
 \savedverbbox=\box57
 \c@VerbboxLineNo=\count344
-\boxtopsep=\dimen256
-\boxbottomsep=\dimen257
-\ps@tempdima=\dimen258
+\boxtopsep=\dimen258
+\boxbottomsep=\dimen259
+\ps@tempdima=\dimen260
 \ps@tempboxa=\box58
 \boxtop@sep=\skip264
 \boxbottom@sep=\skip265
@@ -628,10 +651,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -650,12 +669,12 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 \openout5 = `Bug_description.glo'.
 
 Package glossaries Info: Writing glossary file Bug_description.glo on input lin
-e 14.
+e 16.
 \glo@acronym@file=\write6
 \openout6 = `Bug_description.acn'.
 
 Package glossaries Info: Writing glossary file Bug_description.acn on input lin
-e 14.
+e 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
@@ -665,67 +684,129 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Bug_description.aux)
 \openout1 = `Bug_description.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count346
-\scratchdimen=\dimen259
+\scratchdimen=\dimen261
 \scratchbox=\box60
 \nofMPsegments=\count347
 \nofMParguments=\count348
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count349
-\MPscratchDim=\dimen260
+\MPscratchDim=\dimen262
 \MPnumerator=\count350
 \makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks43
-) (./Bug_description.toc) [1
+\everyMPtoPDFconversion=\toks44
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(./Bug_description.toc) [1
 
 \openout4 = `Bug_description.ist'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
-] [3] [4] (./Bug_description.gls) [5]
+] [3] [4]
+<./images/3.png, id=24, 1432.35126pt x 788.9475pt>
+File: ./images/3.png Graphic file (type png)
+<use ./images/3.png>
+Package pdftex.def Info: ./images/3.png  used on input line 156.
+(pdftex.def)             Requested size: 341.0pt x 187.82239pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 156--157
+[][] 
+ []
+
+<./images/2.png, id=26, 752.8125pt x 757.83125pt>
+File: ./images/2.png Graphic file (type png)
+<use ./images/2.png>
+Package pdftex.def Info: ./images/2.png  used on input line 160.
+(pdftex.def)             Requested size: 341.0pt x 343.2758pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 160--161
+[][] 
+ []
+
+(./Bug_description.gls) [5 <./images/3.png> <./images/2.png>]
 \tf@toc=\write7
 \openout7 = `Bug_description.toc'.
 
- (./Bug_description.aux) ) 
+
+(./Bug_description.aux) ) 
 Here is how much of TeX's memory you used:
- 10265 strings out of 483140
- 144461 string characters out of 5965151
- 475006 words of memory out of 5000000
- 25153 multiletter control sequences out of 15000+600000
+ 11015 strings out of 483140
+ 156633 string characters out of 5965151
+ 489257 words of memory out of 5000000
+ 25852 multiletter control sequences out of 15000+600000
  546108 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,12n,37p,1016b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1728.600pk> </home/justalk/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/justalk/.texlive2019/
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
-Output written on Bug_description.pdf (5 pages, 53030 bytes).
+ 51i,12n,40p,1016b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfour
+/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecbx1728.600pk> </home/justalk/.texlive2019/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fon
+ts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/justalk/.texlive2019/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
+Output written on Bug_description.pdf (5 pages, 147844 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 237 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

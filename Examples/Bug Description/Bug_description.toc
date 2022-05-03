@@ -1,4 +1,4 @@
-\contentsline {part}{\partnumberline {I}How to report a bug}{2}%
+\contentsline {part}{\partnumberline {I}How to report a bug on Slack and Jira}{2}%
 \contentsline {chapter}{Preface}{3}%
 \contentsline {chapter}{\chapternumberline {1}Title}{3}%
 \contentsline {chapter}{\chapternumberline {2}Description}{3}%

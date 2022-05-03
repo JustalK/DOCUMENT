@@ -7,6 +7,8 @@
     \addtolength{\textheight}{3cm}
 \usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \usepackage[acronym]{glossaries}
 \usepackage{tabularx}
 \usepackage{verbatimbox}
@@ -66,7 +68,7 @@
 \thispagestyle{empty}
 \renewcommand{\contentsname}{Table of contents}
 \tableofcontents*
-\part{How to report a bug}
+\part{How to report a bug on Slack and Jira}
 	\chapter*{Preface}
 	\addcontentsline{toc}{chapter}{Preface}
 		When reporting a bug, there is few points required for easily understand and rapidly been able to fix the problem. The following points are the minimum for a Jira ticket or a bug report to be handle :
@@ -78,11 +80,9 @@
   			\item {\color{BrickRed}\textbf{Screenshots}}
 		\end{enumerate}
 		
-	You will find under more explanation about each sections with some examples of what should find in each part.
+	You will find under more explanation about each sections with some examples of what should we find in each part. I also added some examples coming directly from our Jira.
 		\chapter{Title}
 		This section is more about title of ticket used on Jira. The title should be short and concise. In a few words, anyone from the team should be able to understand the problem. It does not need to be a sentance.
-		
-		The examples below directly comes from our Jira so everyone could understand what I am speaking about :
 		
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
@@ -147,13 +147,17 @@ The current recommender system doesn't work. it recommends the same set of actio
         \section{Screenshots}
         A description should always been accompagned with a screenshoot. Text alone is often not enought for pin-pointing where is the problem. Human are visual creature, so a text plus an image made any bug report clearer. It also limits the scope of the error to what the screenshot will show.
         
-        This section is mandatory for any frontend bug report. The buggy part or the problem should be hightlighed on the screenshot by making a circle around the area where is the buggy.
+        This section is mandatory for any frontend bug report. The buggy part or the problem should be hightlighed on the screenshot by making a red circle around the area where the problem is.
 
 If any screenshot of queries or mutations are made, those queries/mutations should also be written in the ticket. You already took the time to write the queries, so make it easier for the next developers. Copy/paste your queries for him to just use it and not rewritting everything from a picture.
         
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
+\includegraphics[width=\textwidth]{3}
+
 \noindent\addvbuffer[12pt 8pt]{{\color{BrickRed}\underline{Bad example:}}}  
+
+\includegraphics[width=\textwidth]{2}
 
 \printglossary[nonumberlist]
 \end{document}
