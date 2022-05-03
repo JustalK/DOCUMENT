@@ -71,7 +71,7 @@
 \part{How to report a bug on Slack and Jira}
 	\chapter*{Preface}
 	\addcontentsline{toc}{chapter}{Preface}
-		When reporting a bug, there is few points required for easily understand and rapidly been able to fix the problem. The following points are the minimum for a Jira ticket or a bug report to be handle :
+		When reporting a bug, there are some mandatories information in order for anyone to understand and fix rapidly any problem. The following points are the minimum required for any bug ticket :
 	
         \begin{enumerate}
   			\item {\color{BrickRed}\textbf{Title}}
@@ -80,9 +80,9 @@
   			\item {\color{BrickRed}\textbf{Screenshots}}
 		\end{enumerate}
 		
-	You will find under more explanation about each sections with some examples of what should we find in each part. I also added some examples coming directly from our Jira.
+	You will find below more explanation about each point with some examples directly taken from Jira.
 		\chapter{Title}
-		This section is more about title of ticket used on Jira. The title should be short and concise. In a few words, anyone from the team should be able to understand the problem. It does not need to be a sentance.
+		The title is the first thing we see when looking at a ticket. It should be short, precise and concise. Anyone from the team should be able to understand the problem just by reading it. If the titles are correctly set, we can also use the filters of Jira for finding the tickets related to each other.
 		
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
@@ -101,7 +101,7 @@
 	
 		
         \chapter{Description}
-        In the description, the bug should be describe as simple as possible for anyone to be able to understand it. It needs to be exhaustive, the more information the better, the more information the easier it is to understand the problem. The bug should not be only understandable by the one handling the ticket/bug. The reason is simple, what happen if the reporter and the one handling the ticket are not in position for answering (Holiday, hospital...). In this case, the ticket need to be handle by someone else and he will need to understand the problem.
+        In the description, the bug should be describe as simple as possible for anyone to be able to understand it. It needs to be exhaustive, the more information the better, the more information the easier it is to understand the problem. The bug should not be only understandable by the one handling the ticket/bug. The reason is simple, what happen if the reporter and the one handling the ticket are not in position for answering (Holiday, hospital...). In this case, the ticket need to be handle by someone else and he will need to understand the problem without any external help.
         
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 
@@ -119,7 +119,7 @@ conclusion the schema for both edit user types permission and create user types 
 \end{itemize}
      
         \section{Replication}
-        This section is certainly the most important. Every step for replicating the bug should be describe. It's really hard and in some cases impossible for the developers to find why the system is returning an error. So helping the developers by providing a step by step will make the problem easy to find and of course, will decrease a lot the time needed for fixing bugs. It's a win-win for everyone.
+        This section is certainly the most important. Every step for replicating the bug should be describe. It's really hard and in some cases impossible for the developers to find why the system is returning an error. So helping the developers by providing a step by step will make the problem easy to find and of course, will decrease by a lot the time needed for fixing bugs. It's a win-win for everyone.
 
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{Good example :}}}
 
@@ -145,11 +145,11 @@ Actual:
 The current recommender system doesn't work. it recommends the same set of actions no matter what the keywords is.
 
         \section{Screenshots}
-        A description should always been accompagned with a screenshoot. Text alone is often not enought for pin-pointing where is the problem. Human are visual creature, so a text plus an image made any bug report clearer. It also limits the scope of the error to what the screenshot will show.
+        A description should always been accompagned with a screenshoot. Text alone is often not enough for pin-pointing where is the problem. Human are visual creature, so a text plus an image made any bug reported clearer. It also limits the scope of the error to what the screenshot will show.
         
-        This section is mandatory for any frontend bug report. The buggy part or the problem should be hightlighed on the screenshot by making a red circle around the area where the problem is.
+        This section is mandatory for any visual bug. The buggy part or the problem should be hightlighed on the screenshot by making a red circle around the area where the problem is.
 
-If any screenshot of queries or mutations are made, those queries/mutations should also be written in the ticket. You already took the time to write the queries, so make it easier for the next developers. Copy/paste your queries for him to just use it and not rewritting everything from a picture.
+If any screenshot of queries or mutations are made, those queries/mutations should also be written in the ticket in the description part. You already took the time to write the queries, so make it easier for the next developers. Copy/paste your queries for him to just use it and not rewritting everything from a picture.
         
 \noindent\addvbuffer[12pt 8pt]{{\color{ForestGreen}\underline{For example :}}}
 

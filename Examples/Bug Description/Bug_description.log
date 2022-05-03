@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 09:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,7 +803,7 @@ fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/justalk/.texlive2019/texmf-v
 ar/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/texm
 f-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/justalk/.texlive2019/t
 exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
-Output written on Bug_description.pdf (5 pages, 147844 bytes).
+Output written on Bug_description.pdf (5 pages, 147861 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
