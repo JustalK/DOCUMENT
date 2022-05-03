@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 07:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 07:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,7 +699,7 @@ LaTeX Font Info:    ... okay on input line 64.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] [3] (./Bug_description.gls) [4] [5]
+] [3] [4] (./Bug_description.gls) [5]
 \tf@toc=\write7
 \openout7 = `Bug_description.toc'.
 
@@ -707,11 +707,11 @@ LaTeX Font Info:    ... okay on input line 64.
 Here is how much of TeX's memory you used:
  10265 strings out of 483140
  144461 string characters out of 5965151
- 474006 words of memory out of 5000000
+ 475006 words of memory out of 5000000
  25153 multiletter control sequences out of 15000+600000
  546108 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 51i,11n,37p,1016b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,12n,37p,1016b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/justalk/.texlive2019/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/tcrm1000.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx2074.600pk> </home/justalk/.texlive2019/texmf-var/fonts/pk
@@ -722,9 +722,9 @@ nts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/justalk/.texlive2019/texmf-var
 var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/justalk/.texlive2019/tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/justalk/.texlive2019/
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
-Output written on Bug_description.pdf (5 pages, 52485 bytes).
+Output written on Bug_description.pdf (5 pages, 53030 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
+ 216 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
